@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style type="text/css">
+        .zone {
+            cursor: pointer;
+            color: #FFF;
+            font-size: 2em;
+            border-radius: 4px;
+            border: 1px solid #bbb;
+            transition: all 0.3s linear;
+        }
+
+        .zone:hover {
+            -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+            -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+            -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+            box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50vh; /* viewport height*/
+        }
+
+        /* GRID */
+        .grid-wrapper {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        }
+
+        .box > img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .box {
+            background-color: #444;
+        }
+
+        .description {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container zone">Cover</div>
+<div class="zone grid-wrapper">
+    <div class="box zone">
+        <img src="YouthRollerHockey.jpg">
+        <div class="description">
+            <p>Youth Roller Hockey at Inline309, the perfect place for young hockey players to learn, develop their skills, and have fun!</p>
+            <p>We offer two age-specific leagues: a 12 and under league and an 18 and under league, both of which provide a safe and supportive environment for players to showcase their talents.</p>
+            <p>Our in-house league means that all games are played inside the Inline309 facility.</p>
+            <p>Our league emphasizes sportsmanship, teamwork, and skill-building, and is a great way for players to make new friends and become part of a community.</p>
+            <p>We believe in providing a high-quality hockey experience, which is why we offer experienced coaches who are dedicated to helping players develop their skills and reach their full potential.</p>
+            <p>At Inline309, we believe that hockey should be accessible to all young players, which is why we offer our league at an affordable price point.</p>
+            <p>So, whether your child is just starting out or has been playing for years, Youth Roller Hockey at Inline309 is the perfect place to learn, have fun, and take their game to the next level.</p>
+            <p>Scroll down to register for the next season.</p>
+            <p>We can't wait to see you here!</p>
+        </div>
+    </div>
+    <div class="box zone">
+        <img src="AdultRollerHockey.jpg">
+        <div class="description">Description for Adult Roller Hockey</div>
+    </div>
+</div>
+</body>
+</html>
